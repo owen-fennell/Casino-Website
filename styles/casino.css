@@ -1,0 +1,115 @@
+/* parent div, whole page */
+.parent {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* header */
+.main-header{
+    position: relative;
+    background-image: url("../images/golden-shores.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    width: 100%;
+    height: 40%;
+}
+
+/* title */
+.casino-name {
+    text-align: center;
+    position: sticky;
+    font-size: 4em;
+    font-family: Mea Culpa;
+    color: #ffc955;
+    font-weight: 450;
+    text-shadow: 5px 5px 5px #0a035a;
+}
+
+/* wave img, header transition */
+.bottom-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* holds game icons */
+.container {
+    width: 100%;
+}
+
+/* games section title */
+.title {
+    font-family: Fondamento;
+}
+
+/* text descriptions */
+.games-descriptions {
+    font-family: Fondamento;
+}
+
+/* blackjack logo */
+.bj-logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 33%;
+    display: inline-flex;
+    justify-content: space-around;
+    position: inherit;
+}
+
+/* slots logo */
+.slots-logo {
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+    border-radius: 33%;
+    display: inline-flex;
+    justify-content: space-around;
+    position: inherit;
+}
+
+/* baccarat logo */
+.baccarat-logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 33%;
+    display: inline-flex;
+    justify-content: space-around;
+    position: inherit;
+}
+
+/* services formatting */
+#services {
+    padding: 3%;
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;  
+    color: #11087d;
+}
+
+/* divider container */
+.games-divider {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 50%;
+}
+
+/* divider pic */
+.games-divider-pic {
+    width: 30%;
+}
+
+

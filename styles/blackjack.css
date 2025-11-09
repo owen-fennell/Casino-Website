@@ -1,0 +1,152 @@
+/* container for the playable game */
+.game-box {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+/* playable game */
+.game-screen {
+    display: inline-block;
+    text-align: center;
+    background-image: url(../images/table.jpg);
+    background-size: cover;
+    height: 110%;
+    width: 80%;
+    object-fit: fill;
+}
+
+/* emphasized words in game description */
+.emphasize-word {
+    color: rgb(72, 72, 219);
+}
+/* goal of the game */
+.goal-statement {
+    font-size: 120%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/* game descripton */
+.game-desc {
+    font-family: Fondamento;
+    color: #171D35;
+    font-size: 110%;
+}
+
+/* screen not including navbar */
+.parent {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* middle section container - holds game box and description */
+.middle-section {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 120%;
+    background-color: #F7DDA4;
+}
+
+/* margin photo (both sides) */
+.marg {
+    object-fit: cover;
+    width: 100%;
+    height: 120%;
+}
+
+/* margins */
+.col {
+    height: 100%;
+}
+
+/* parent row holding columns */
+.row {
+    height: 100vh;
+}
+
+/* navbar golden shores text */
+.navbar-brand {
+    font-family: Mea Culpa;
+    font-size: 175%;
+    color: #F7DDA4;}
+
+/* navbar dropdown options */
+.dropdown-menu {
+    font-family: Fondamento;
+}
+
+/* navbar dropdown text*/
+.nav-link {
+    font-family: Mea Culpa;
+    font-size: 150%;
+    color: #F7DDA4;}
+
+/* blackjack logo, top of page */
+.game-title {
+    display: inline-block;
+    width: 90%;
+    font-family: Fondamento;
+    font-size: 50%;
+    text-align: center;
+}
+
+/* logo picture */
+.game-logo {
+    width: 30%;
+}
+
+.dealer-hand {
+    vertical-align: top;
+}
+
+.player-hand {
+    vertical-align: bottom;
+}
+
+
+/* game/card spacing - figure out game screen background */
+body {
+    font-family: Fondamento;
+    text-align: center;
+}
+
+#dealer-cards img {
+    height: 10%;
+    width: 10%;
+    margin: 1px;
+}
+
+#your-cards img {
+    height: 10%;
+    width: 10%;
+    margin: 1px;
+}
+
+#hit {
+    width: 10%;
+    height: 5%;
+    font-size: 80%;
+}
+
+#stand {
+    width: 10%;
+    height: 5%;
+    font-size: 80%;
+}
+
+#double {
+    width: 10%;
+    height: 5%;
+    font-size: 80%;
+}
+
+#split {
+    width: 10%;
+    height: 5%;
+    font-size: 80%;
+}

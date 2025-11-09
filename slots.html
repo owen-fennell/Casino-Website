@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Slots</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href ="styles/slots.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Mea+Culpa&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color:rgb(95, 7, 7)">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(95, 7, 7);" data-bs-theme="light">
+        <div class="container-fluid">
+            <!--BRANDING IN NAVBAR-->
+            <a class="navbar-brand" href="casino.html">Golden Shores</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!--NAVBAR DROPDOWN-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Other Games
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="blackjack.html">Blackjack</a></li>
+                    <li><a class="dropdown-item" href="baccarat.html">Baccarat</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--SCREEN-->
+    <div class="row align-items-start">
+      <!--SIDE MARGIN-->
+      <div class="col">
+        <img class="marg" src="images/red-gold-swirl-2.jpg">
+      </div>
+
+      <!--MIDDLE DIV-->
+      <div class="col-md-7"> <div class="middle-section">
+        <!--GAME LOGO-->
+        <div class="game-title">
+          <br><br>
+          <img class="game-logo" src="images/slots-title-logo.png">
+          <br><br><br><br>
+        </div>
+        <!--GAME SCREEN-->
+        <div class="game-box">
+          <div class="game-screen">
+            <!--SLOTS APP-->
+              <div id="app">
+                  <div class="doors">
+                    <div class="door">
+                        <div class="boxes"></div>
+                    </div>
+                
+                    <div class="door">
+                        <div class="boxes"></div>
+                    </div>
+                
+                    <div class="door">
+                        <div class="boxes"></div>
+                    </div>
+                  </div>
+              
+                  <div class="buttons">
+                    <button id="spinner">Spin</button>
+                    <button id="reseter">Reset</button>
+                  </div>
+                  <p class="moneycounter"></p>
+                  <p class="result"></p>
+              </div>
+          </div>
+        </div>
+
+        <!--DESCRIPTION/CONTROLS-->
+        <div class="game-desc" style="text-align: center;">
+            <p class="instructions">
+              <br>
+              <span class="goal-statement"><span class="emphasize-word">GOAL</span>: Get 3 of the same symbol in a row.<br></span>
+            </p>
+        </div>
+      </div>
+      </div>
+
+      <!--SIDE MARGIN-->
+      <div class="col">
+        <img class="marg" src="images/red-gold-swirl-2.jpg">
+      </div>
+
+      <p class="info"></p>
+    </div>
+
+  <script src = "js/slots.js"></script>
+</body>
+</html>
