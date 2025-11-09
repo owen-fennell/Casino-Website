@@ -14,25 +14,25 @@ Baccarat Game: Allows user role selection (Player, Banker, or Tie) and simulates
 
 Technical Details
 
-Languages: HTML5, CSS3, JavaScript (ES6)
+   Languages: HTML5, CSS3, JavaScript (ES6)
 
 Libraries & Frameworks:
 
-Bootstrap 5
- for layout and responsive design
+   Bootstrap 5
+    for layout and responsive design
 
-Google Fonts
- for custom typography
+   Google Fonts
+    for custom typography
 
 Features:
 
-Event-driven JavaScript for user interaction and gameplay flow
+   Event-driven JavaScript for user interaction and gameplay flow
 
-DOM manipulation for dynamic updates and animations
+   DOM manipulation for dynamic updates and animations
 
-Modular, scalable structure to allow for easy addition of new games
+   Modular, scalable structure to allow for easy addition of new games
 
 Usage
 
-Clone the repository and open index.html in any modern browser.
-Each game can be accessed through navigation links on the homepage.
+   Clone the repository and open index.html in any modern browser.
+   Each game can be accessed through navigation links on the homepage.
