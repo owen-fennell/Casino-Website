@@ -140,7 +140,7 @@ cards = new Array("◆A", "◆K", "◆Q", "◆J", "◆10", "◆9", "◆8", "◆7
         for(let i =0; i<2; ++i){
             let cardImg = document.createElement("img");
             drawCard_player(min, max);
-            cardImg.src = "../images/cards/" + image_value + "-" + suit + ".png";
+            cardImg.src = "./images/cards/" + image_value + "-" + suit + ".png";
             console.log(cardImg);
             document.getElementById("player-cards").append(cardImg);
             ++playerCards;
@@ -149,7 +149,7 @@ cards = new Array("◆A", "◆K", "◆Q", "◆J", "◆10", "◆9", "◆8", "◆7
         for(let i =0; i<2; ++i){
             let cardImg = document.createElement("img");
             drawCard_banker(min, max);
-            cardImg.src = "../images/cards/" + image_value_banker + "-" + suit + ".png";
+            cardImg.src = "./images/cards/" + image_value_banker + "-" + suit + ".png";
             console.log(cardImg);
             document.getElementById("banker-cards").append(cardImg);
             ++bankerCards;
@@ -162,7 +162,7 @@ cards = new Array("◆A", "◆K", "◆Q", "◆J", "◆10", "◆9", "◆8", "◆7
         if (count_banker <= 5 && bankerCards < 3){
             let cardImg = document.createElement("img");
             drawCard_banker(min, max);
-            cardImg.src = "../images/cards/" + image_value_banker + "-" + suit + ".png";
+            cardImg.src = "./images/cards/" + image_value_banker + "-" + suit + ".png";
             console.log(cardImg);
             document.getElementById("banker-cards").append(cardImg);
             ++bankerCards;
@@ -171,7 +171,7 @@ cards = new Array("◆A", "◆K", "◆Q", "◆J", "◆10", "◆9", "◆8", "◆7
         if (count <= 5 && playerCards < 3){
             let cardImg = document.createElement("img");
             drawCard_player(min, max);
-            cardImg.src = "../images/cards/" + image_value + "-" + suit + ".png";
+            cardImg.src = "./images/cards/" + image_value + "-" + suit + ".png";
             console.log(cardImg);
             document.getElementById("player-cards").append(cardImg);
             ++playerCards;
