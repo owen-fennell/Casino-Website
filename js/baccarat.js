@@ -123,6 +123,34 @@ cards = new Array("◆A", "◆K", "◆Q", "◆J", "◆10", "◆9", "◆8", "◆7
             }
         });
     })
+    
+    document.addEventListener("DOMContentLoaded", () => {
+            // reset button logic
+        reset.addEventListener("click", () => { 
+            if (money <= 0) {
+                result_elem.innerHTML = "Received 50 credit bail-out bonus.";
+                money += 50;
+            }
+            enableButtons();
+            count = 0;
+            count_banker = 0;
+            result = 0;
+            card = 0;
+            card_value = 0;
+            card_value_banker = 0;
+            playerCards = 0;
+            bankerCards = 0;
+            banker_cards_display.innerHTML = '';
+            player_cards_display.innerHTML = '';
+            result_elem.innerHTML = "";
+            userChoice = "";
+            //draw.disabled = true;
+            reset.disabled = true;
+            
+            updateScore();
+
+        });
+    })
 
 
     // game logic
@@ -196,31 +224,6 @@ cards = new Array("◆A", "◆K", "◆Q", "◆J", "◆10", "◆9", "◆8", "◆7
 
 
 
-        // reset button logic
-        reset.addEventListener("click", () => { 
-            if (money <= 0) {
-                result_elem.innerHTML = "Received 50 credit bail-out bonus.";
-                money += 50;
-            }
-            enableButtons();
-            count = 0;
-            count_banker = 0;
-            result = 0;
-            card = 0;
-            card_value = 0;
-            card_value_banker = 0;
-            playerCards = [];
-            bankerCards = [];
-            banker_cards_display.innerHTML = '';
-            player_cards_display.innerHTML = '';
-            result_elem.innerHTML = "";
-            userChoice = "";
-            //draw.disabled = true;
-            reset.disabled = true;
-            
-            updateScore();
-
-        });
 
 
     }
